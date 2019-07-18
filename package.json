@@ -1,0 +1,38 @@
+{
+  "name": "vxf",
+  "version": "0.0.1",
+  "description": "Function Based APIs for Vue and Vuex.",
+  "main": "es5/index.js",
+  "module": "lib/index.js",
+  "esnext": "lib/index.js",
+  "types": "types/index.d.ts",
+  "repository": "https://github.com/TerenceZ/vxf.git",
+  "author": "Terence Zhong <texvnars@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build:es5": "tsc --build tsconfig.es5.json",
+    "build:modern": "tsc --build tsconfig.json",
+    "build": "npm run build:modern && npm run build:es5"
+  },
+  "keywords": [
+    "vue",
+    "vuex",
+    "saga",
+    "function",
+    "redux-saga",
+    "state-manager"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.14",
+    "redux-saga": "^1.0.5"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.136",
+    "@types/node": "^12.6.8",
+    "typescript": "^3.5.3"
+  },
+  "peerDependencies": {
+    "vue": "^2.6.10",
+    "vuex": "^3.1.1"
+  }
+}
