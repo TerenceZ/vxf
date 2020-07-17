@@ -23,7 +23,7 @@
     "state-manager"
   ],
   "dependencies": {
-    "lodash": "^4.17.14",
+    "lodash": "^4.17.19",
     "redux-saga": "^1.0.5"
   },
   "devDependencies": {
